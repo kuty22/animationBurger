@@ -1,0 +1,121 @@
+.BurgerAll {
+	margin-left:auto;
+	margin-right: auto; 
+}
+
+
+.breadBottom {
+	position: absolute;
+	display: flex;
+	margin-left:auto;
+	margin-right: auto;
+	top:-300px;
+
+}
+
+.steak {
+	position: absolute;
+	display: flex;
+	margin-left:auto;
+	margin-right: auto;
+	top:-300px;
+}
+
+.cheese {
+	position: absolute;
+	display: flex;
+		margin-left:auto;
+	margin-right: auto;
+	top:-300px;
+}
+
+.tomato {
+	position: absolute;
+	display: flex;
+	margin-left:auto;
+	margin-right: auto;
+
+	top:-300px;
+}
+
+.breadT {
+	position: absolute;
+	padding-left: 10px;
+	display: flex;
+	margin-left:auto;
+	margin-right: auto;
+	top:-300px;
+
+}
+
+body { 
+  font-family: 'Source Sans Pro', Arial, sans-serif;
+  background: black;
+  text-transform: uppercase;
+  color: white;
+  text-align: center; 
+   
+  padding:50px;
+}
+
+
+h2{
+  font-size:100px;
+  position:relative;
+}
+
+/*
+text-shadow originated from: http://codepen.io/zitrusfrisch
+*/
+.superShadow {
+  text-shadow:     0 1px 0 hsl(174,5%,80%),
+                     0 2px 0 hsl(174,5%,75%),
+                     0 3px 0 hsl(174,5%,70%),
+                     0 4px 0 hsl(174,5%,66%),
+                     0 5px 0 hsl(174,5%,64%),
+                     0 6px 0 hsl(174,5%,62%),
+                     0 7px 0 hsl(174,5%,61%),
+                     0 8px 0 hsl(174,5%,60%),
+    
+                     0 0 5px rgba(0,0,0,.05),
+                    0 1px 3px rgba(0,0,0,.2),
+                    0 3px 5px rgba(0,0,0,.2),
+                   0 5px 10px rgba(0,0,0,.2),
+                  0 10px 10px rgba(0,0,0,.2),
+                  0 20px 20px rgba(0,0,0,.3);
+}
+
+strong{
+  font-size:200px;
+}
+
+.btn-medium {
+    display: block;
+    width: 200px;
+    height: 44px;
+    margin-right: auto;
+    margin-left: auto;
+    border: 2px solid white;
+    border-radius: 2px;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: black;
+    background-color: white;
+    box-shadow: 0 1px 10px 0 rgba(0,0,0,0.5);
+    -webkit-transition: all 0.4s ease-out;
+    -moz-transition: all 0.4s ease-out;
+    -ms-transition: all 0.4s ease-out;
+    -o-transition: all 0.4s ease-out;
+    transition: all 0.4s ease-out;
+}
+
+.btn-medium:hover {
+    border: 2px solid white;
+    color: white;
+    background-color: transparent;
+    -webkit-transition: all 0.4s ease-out;
+    -moz-transition: all 0.4s ease-out;
+    -ms-transition: all 0.4s ease-out;
+    -o-transition: all 0.4s ease-out;
+    transition: all 0.4s ease-out;
+}
