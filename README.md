@@ -1,5 +1,4 @@
-# animationBurger
+# Burger Animation
 first animation with tweenMax and tweenLite 
 
-
-TweenMax & TweenLite First utilisation.
+Restaurant website animation tests.
